@@ -37,9 +37,21 @@
         </div>
       </div>
       <div class="add-detail-goods">
-        <div class="add-detail-icon"></div>
-        <div class="add-detail-goods-msg"></div>
+        <div class="add-detail-icon">
+          <img src="../assets/6282F2A8-6749-444E-8004-3C4343307395@2x.png" alt>
+        </div>
+        <div class="add-detail-goods-msg">
+          <img src="../assets/logo.png" alt>
+          <span class="span1">晓豆包专用相纸</span>
+          <span class="span2">规格：50张</span>
+          <span class="span3">￥12.9</span>
+          <span class="span4">市场价:￥19.9</span>
+        </div>
       </div>
+    </div>
+
+    <div class="add-text">
+      <span></span> 收货信息
     </div>
   </div>
 </template>
@@ -172,12 +184,13 @@ export default {};
 }
 
 .add-detail {
-  width: 3.88rem;
+  width: 3.39rem;
   height: 2.02rem;
   display: flex;
   border-bottom: 0.13rem solid #f5f5f5;
   box-sizing: border-box;
   justify-content: space-around;
+  margin-right: 0.39rem;
 }
 
 .add-detail-goods {
@@ -200,6 +213,7 @@ export default {};
       font-size: 0.14rem;
       text-align: left;
       font-family: PingFang-SC-Bold;
+      margin-bottom: 0.02rem;
     }
     .span2 {
       display: block;
@@ -210,6 +224,7 @@ export default {};
       font-size: 0.12rem;
       text-align: left;
       font-family: PingFang-SC-Medium;
+      margin-bottom: 0.02rem;
     }
     .span3 {
       display: block;
@@ -220,23 +235,25 @@ export default {};
       font-size: 0.12rem;
       text-align: left;
       font-family: PingFang-SC-Bold;
+      margin-bottom: 0.02rem;
+      
     }
     .span4 {
       display: block;
-      width: 76px;
-      height: 17px;
-      line-height: 17px;
+      height: 0.17rem;
+      line-height: 0.17rem;
       color: rgba(102, 102, 102, 1);
-      font-size: 12px;
+      font-size: 0.12rem;
       text-align: left;
       font-family: PingFang-SC-Medium;
+      text-decoration: line-through;
     }
   }
 }
 .add-detail-icon {
   float: left;
   position: relative;
-  width: 0.4rem;
+  width: 0.39rem;
   height: 100%;
   img {
     position: absolute;
